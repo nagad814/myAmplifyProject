@@ -1,0 +1,53 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "mymplifyroject-20190102173040-authRole",
+			"UnauthRoleArn": "arn:aws:iam::914292866874:role/mymplifyroject-20190102173040-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::914292866874:role/mymplifyroject-20190102173040-authRole",
+			"Region": "ap-south-1",
+			"DeploymentBucketName": "mymplifyroject-20190102173040-deployment",
+			"UnauthRoleName": "mymplifyroject-20190102173040-unauthRole",
+			"StackName": "mymplifyroject-20190102173040",
+			"StackId": "arn:aws:cloudformation:ap-south-1:914292866874:stack/mymplifyroject-20190102173040/07073470-0e86-11e9-ad18-06ba22c3467e"
+		}
+	},
+	"auth": {
+		"cognito4fbca17d": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/mymplifyroject-20190102173040-deployment/amplify-cfn-templates/auth/cognito4fbca17d-cloudformation-template.yml",
+				"logicalId": "authcognito4fbca17d"
+			},
+			"lastPushTimeStamp": "2019-01-02T13:03:44.436Z",
+			"output": {
+				"IdentityPoolId": "ap-south-1:d6905a00-6ba8-42e7-bc2f-03f478a4b349",
+				"IdentityPoolName": "myamplifyproject_identitypool_ac170f5a",
+				"AppClientSecret": "ujl10ovbpvq8nvnbk7pkrs1q6pvmb84korbn2g2t8a3khd2t5uh",
+				"UserPoolId": "ap-south-1_A1mDiqn5X",
+				"AppClientIDWeb": "27sghfbglihei3eb8kcvfaff2n",
+				"AppClientID": "45oirvgjoapof3nkkfak54b5me",
+				"UserPoolName": "cognito4fbca17d_userpool_86b8da7f"
+			},
+			"lastPushDirHash": "7Z0I/Y78QdPDuDKqJn6fZIYKe3A=",
+			"[object Object]": {}
+		}
+	},
+	"analytics": {
+		"myamplifyproject": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/mymplifyroject-20190102173040-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticsmyamplifyproject"
+			},
+			"lastPushTimeStamp": "2019-01-02T13:03:44.433Z",
+			"output": {
+				"appName": "myamplifyproject",
+				"Region": "us-west-2",
+				"Id": "68b63f7d6f32443f9bd0a11351e51d7a"
+			},
+			"lastPushDirHash": "BaPxgpBKhi/xmgQQnERKNToN+Ak="
+		}
+	}
+}
